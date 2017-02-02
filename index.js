@@ -2,6 +2,8 @@ var express = require('express')
 var app = express()
 var uuidV4 = require('uuid/v4');
 
+var port = process.env.PORT || 3000;
+
 app.set('view engine', 'pug')
 
 app.get('/', function (req, res) {
@@ -13,6 +15,4 @@ app.get('/kafka', function (req, res) {
   //TODO do kafka things
 })
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(port)
