@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.render('index', { title: 'Hey', heading: 'It\'s demo time', message: message })
 })
 
+app.get('/kafka', function (req, res) {
+  //TODO do kafka things
+})
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })
