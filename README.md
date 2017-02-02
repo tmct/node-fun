@@ -2,12 +2,12 @@
 
 Fun with node
 
-## Instructions
+## Local hosting
 * `npm install`
 * `node index.js`
 * Your app should now be running on [localhost:3000](http://localhost:3000)
 
-## Quick hosting
+## Heroku hosting
 * Create a Heroku account
 * Download the heroku CLI
 * Log into the CLI
